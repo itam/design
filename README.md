@@ -1,5 +1,5 @@
-# Design Projects
-Design related personal projects that I'ved worked on. All wireframes, HTML, CSS, and JS (aside from any libraries used) are done by me.
+# Personal Projects
+Personal projects that I'ved worked on. All wireframes, HTML, CSS, and JS (aside from any libraries used) are done by me.
 
 ## [Account Settings](/accountSettings)
 A re-imagination of the existing account settings page on http://smugmug.com. A PDF of wireframes for the new look and a folder of screenshots of existing UI.
@@ -7,7 +7,7 @@ A re-imagination of the existing account settings page on http://smugmug.com. A 
 ## [Chilly Pig Creations - In Progress](/chillyPigCreations)
 A hand-coded design for http://chillypigcreations.com
 
-View this page at http://reylance.com/design/chillyPigCreations/index.html
+View this page at http://reylance.com/projects/chillyPigCreations/index.html
 
 ##### What I try to keep in mind:
 1. This is a one page site designed with the consideration that the owners are not web stack saavy and I tried to keep it simple so the owners would be able to update it.
