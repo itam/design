@@ -17,6 +17,11 @@
     text-align: center;
 }
 
+.block-center {
+    display: block;
+    margin: auto;
+}
+
 .three-column-left {
     margin-top: 20px;
     text-align: center;
@@ -102,6 +107,7 @@
 
 .splash img {
     width: 100%;
+    height: 100%;
 }
 
 .announcement {
@@ -112,11 +118,11 @@
     border: 1px solid #d6e9c6;
 }
 
-.section {
+section {
     padding: 35px;
 }
 
-.section a {
+section a {
     color: #FC7998;
 }
 
@@ -125,7 +131,39 @@
     height: 200px;
 }
 
-.services .samples {
+.info h4 {
+    text-transform: uppercase;
+}
+
+.info table {
+    width: 50%;
+    table-layout: fixed;
+    margin: 10px auto;
+    border: 1px solid #000000;
+}
+
+.info caption {
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.info th {
+    background-color: #83D4ED;
+    padding: 5px;
+}
+
+.info td {
+    padding: 5px;
+}
+
+.info blockquote {
+    font-style: italic;
+    color: #797979;
+    border-left: 3px solid #797979;
+    padding-left: 10px;
+}
+
+.samples {
     margin-top: 25px;
     left: 0;
     right: 0;
@@ -141,6 +179,13 @@
     list-style: none;
 }
 
+.resources .templates {
+    width: 20%;
+    border: 1px solid #FFFFFF;
+    float: right;
+    margin-left: 15px;
+}
+
 .terms li {
     padding-bottom: 10px;
 }
@@ -152,27 +197,27 @@
 a.anchor {
     display: block;
     position: relative;
-    top: -70px;
+    top: -69px;
     visibility: hidden;
 }
 
-.section .faqs-body h4:before {
+section .faqs-body h4:before {
     content: 'Q: ';
     font-size: 24px;
     font-weight: bold;
 }
 
-.section .faqs-body p.answer:before {
+section .faqs-body p.answer:before {
     content: 'A: ';
     font-size: 24px;
     font-weight: bold;
 }
 
-.section h2 {
+section h2 {
     color: #83D4ED;
 }
 
-.section.black {
+section.black {
     color: #FFFFFF;
     background-color: #393939;
 }
@@ -183,6 +228,7 @@ a.anchor {
     float: right;
     border: 1px solid #FFFFFF;
     margin-left: 20px;
+    background-color: #393939;
 }
 
 .faqs-menu ul {
@@ -208,9 +254,65 @@ a.anchor {
     text-align: center;
 }
 
-#credits {
+.credits {
     font-size: 12px;
     text-align: right;
     padding: 10px;
     letter-spacing: 1px;
+}
+
+@media(max-width: 768px) {
+    .container {
+        line-height: 30px;
+    }
+
+    .faqs-body img,
+    .raster-tutorial img,
+    .logo {
+        width: 100%;
+    }
+
+    .logo img {
+        width: 80%;
+    }
+
+    .links,
+    .info table {
+        padding: 0;
+        margin-left: 0;
+        margin-right: 0;
+        width: 100%;
+    }
+
+    .links li {
+        width: 100%;
+        text-align: center;
+    }
+
+    .three-column-center,
+    .three-column-left,
+    .three-column-right,
+    .two-column-left,
+    .two-column-right {
+        width: 100%;
+        float: none;
+    }
+
+    .container h1 {
+        letter-spacing: 0;
+    }
+
+    .faqs-menu,
+    .resources .templates {
+        float: none;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+
+    .services .samples {
+        width: 100%;
+        padding: 0;
+    }
 }
