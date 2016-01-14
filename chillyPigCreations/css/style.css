@@ -301,20 +301,20 @@ section.black {
 @media(max-width: 768px) {
     .container {
         line-height: 30px;
+        width: auto;
+        height: 100%;
     }
 
     .faqs-body img,
     .raster-tutorial img,
-    .logo {
-        width: 100%;
+    img {
+        width: auto;
+        max-width: 100%;
         text-align: center;
     }
 
-    .logo img {
-        width: auto;
-        float: none;
-        margin-left: 0;
-        margin-right: 0;
+    .logo {
+        display: none;
     }
 
     .links,
@@ -325,9 +325,11 @@ section.black {
         width: 100%;
     }
 
+    .navigation,
     .links li {
         width: 100%;
         text-align: center;
+        line-height: normal;
     }
 
     .three-column-center,
