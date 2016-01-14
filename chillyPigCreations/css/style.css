@@ -194,13 +194,6 @@ section a {
     padding-bottom: 0;
 }
 
-a.anchor {
-    display: block;
-    position: relative;
-    top: -69px;
-    visibility: hidden;
-}
-
 section .faqs-body h4:before {
     content: 'Q: ';
     font-size: 24px;
@@ -256,11 +249,55 @@ section.black {
 
 .credits {
     font-size: 12px;
-    text-align: right;
+    text-align: left;
     padding: 10px;
     letter-spacing: 1px;
 }
 
+/* Ecwid style overrides */
+.ecwid-productBrowser-head,
+.ecwid-results-topPanel {
+    display: none;
+}
+
+.ecwid-productBrowser-categoryPath {
+    font-size: 16px !important;
+}
+
+.ecwid-productBrowser-categoryPath a {
+    color: #FC7998 !important;
+    font-size: 16px !important;
+}
+
+#my-store-6527027 {
+    border: 1px dashed #000000;
+    padding-right: 5px;
+    font-family: 'Roboto Condensed', Helvetica, Arial, sans-serif !important;
+}
+
+#wufooFormm13dz9qr1qk8z0v {
+    font-family: 'Roboto Condensed', Helvetica, Arial, sans-serif !important;
+}
+
+/* Wufoo style overrides */
+.wufoo input.text, input.search, textarea.textarea {
+    border: 1px solid #797979;
+    outline: 0;
+    box-shadow: none;
+    line-height: 20px;
+    padding: 5px;
+    width: 98%;
+}
+
+.wufoo input.btTxt {
+    padding: 10px;
+    line-height: 20px;
+    background-color: #FC7998;
+    border: none;
+    color: #FFFFFF;
+}
+
+/*For smaller screens*/
 @media(max-width: 768px) {
     .container {
         line-height: 30px;
@@ -314,5 +351,9 @@ section.black {
     .services .samples {
         width: 100%;
         padding: 0;
+    }
+
+    .wufoo input.btTxt {
+        width: 100%;
     }
 }
