@@ -307,10 +307,14 @@ section.black {
     .raster-tutorial img,
     .logo {
         width: 100%;
+        text-align: center;
     }
 
     .logo img {
-        width: 80%;
+        width: auto;
+        float: none;
+        margin-left: 0;
+        margin-right: 0;
     }
 
     .links,
