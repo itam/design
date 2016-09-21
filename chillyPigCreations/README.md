@@ -1,10 +1,12 @@
 ## [Chilly Pig Creations - In Progress](/chillyPigCreations)
 A hand-coded design for http://chillypigcreations.com
 
+<img src="screenshots/chillypigcreations-new.gif" width="500px"/>
+
 ##### The Goal
 This project got started when I first approached the owner of ChillyPig Creations asking if I could design a new page for them to use. I wanted to practice coding a site from scratch and I picked ChillyPig Creations since they are a small company and they don't have the resources to create and maintain a complicated web presence. I wasn't looking to re-invent the system they already had so painstakingly worked on, I just wanted to be able to give them a mobile-friendly, easy to navigate site.
 
-View this page at http://reylance.com/projects/chillyPigCreations/index.html
+View this page at http://itam.github.io/projects/chillyPigCreations/index.html
 
 ##### What I try to keep in mind:
 1. I kept their ordering system the same so they would not have the overhead of changing systems.
